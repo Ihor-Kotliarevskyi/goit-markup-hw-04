@@ -74,7 +74,6 @@ h6,
   color: #2e2f42;
 }
 
-.hero,
 .footer {
   background-color: #2e2f42;
 }
@@ -175,6 +174,16 @@ address {
 }
 
 .hero {
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, cover;
   padding: 188px 0;
 }
 
@@ -226,21 +235,21 @@ address {
   overflow: hidden;
 }
 
-.all-descr {
+.benefits {
   padding: 120px 0;
 }
 
-.all-descr-list {
+.benefits-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.all-descr-list-item {
+.benefits-list-item {
   width: calc((100% - 72px) / 4);
 }
 
-.all-descr-list-title {
+.benefits-list-title {
   margin-bottom: 8px;
 }
 
