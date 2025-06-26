@@ -331,6 +331,11 @@ address {
   position: relative;
   border-radius: 50%;
 }
+
+.team-list-social-box:hover {
+  background-color: #31d0aa;
+}
+
 .team-list-social-icon {
   position: absolute;
   top: 50%;
@@ -445,6 +450,10 @@ address {
   height: 40px;
   position: relative;
   border-radius: 50%;
+}
+
+.footer-list-social-box:hover {
+  background-color: #31d0aa;
 }
 
 .footer-list-social-icon {
